@@ -41,5 +41,11 @@ echo $code;
 ?>
 			<div>
 		</div>
+
+    <div class="experiments">
+<?php
+echo implode(' ', explode("/", $_SERVER['REQUEST_URI']));
+?>
+    </div>
 	</body>
 </html>
